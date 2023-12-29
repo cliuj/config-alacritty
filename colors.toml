@@ -2,5 +2,4 @@ import = ["/home/cliuj/.config/alacritty/themes/tokyonight_night.toml"]
 
 [colors.cursor]
 cursor = "0xffffff"
-custom_colors = false
 text = "0x000000"
