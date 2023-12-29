@@ -11,7 +11,6 @@
 import:
   - ~/.config/alacritty/colors.yml
   - ~/.config/alacritty/font.yml
-  - ~/.config/alacritty/keymaps.yml
 
 
 shell:
