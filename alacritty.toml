@@ -1,0 +1,58 @@
+import = ["/home/cliuj/.config/alacritty/colors.toml", "/home/cliuj/.config/alacritty/font.toml"]
+live_config_reload = true
+working_directory = "None"
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[cursor]
+thickness = 0.3
+unfocused_hollow = true
+
+[cursor.style]
+blinking = "Off"
+shape = "Block"
+
+[mouse]
+hide_when_typing = true
+
+[[mouse.bindings]]
+action = "ExpandSelection"
+mouse = "Right"
+
+[[mouse.bindings]]
+action = "ExpandSelection"
+mods = "Control"
+mouse = "Right"
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mode = "~Vi"
+mouse = "Middle"
+
+[mouse.double_click]
+threshold = 300
+
+[mouse.triple_click]
+threshold = 300
+
+[scrolling]
+history = 20000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+
+[shell]
+args = ["-c", "tmux attach || tmux"]
+program = "/bin/bash"
+
+[window]
+dynamic_padding = true
+dynamic_title = true
+opacity = 0.9
+resize_increments = true
+
+[window.padding]
+x = 25
+y = 25
