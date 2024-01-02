@@ -2,7 +2,10 @@
 size = 10.0
 
 [font.normal]
-#family = UbuntuMono Nerd Font
+#family = "UbuntuMono Nerd Font"
+#family = "MesloLGSDZ Nerd Font Mono"
+#family = "HackNerdFont Mono"
+#family = "BlexMono Nerd Font"
+family = "HasklugNerdFontMono"
 #style = "Regular"
-family = "BlexMono Nerd Font"
 style = "Medium"
