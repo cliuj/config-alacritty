@@ -1,3 +1,4 @@
+[general]
 import = ["/home/cliuj/.config/alacritty/colors.toml", "/home/cliuj/.config/alacritty/font.toml"]
 live_config_reload = true
 working_directory = "None"
@@ -37,7 +38,7 @@ multiplier = 3
 [selection]
 save_to_clipboard = true
 
-[shell]
+[terminal.shell]
 args = ["-c", "tmux attach || tmux"]
 program = "/bin/bash"
 
