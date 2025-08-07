@@ -1,5 +1,7 @@
-import = ["/home/cliuj/.config/alacritty/themes/tokyonight_night.toml"]
 
 [colors.cursor]
 cursor = "0xffffff"
 text = "0x000000"
+
+[general]
+import = ["/home/cliuj/.config/alacritty/themes/tokyonight_night.toml"]
